@@ -1,0 +1,10 @@
+1.No Feature Scaling used.
+2.Ordinal Encoding is used for Severity column.
+3.Column Cabin_Temperature,Accident_id,Voilation_Type and Adverse_Weather_Metric droped as it has less affect on prediction.
+3.Model used is XGBoost Classification to classify the different Severity.
+4.Hyperparameter Tuning RandomSearchCV is used to tune the parameters.
+
+*library used
+1.Pandas
+2.Numpy
+3.Sklearn
